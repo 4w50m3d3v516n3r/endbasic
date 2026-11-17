@@ -28,6 +28,8 @@ set -eux
 cargo install cargo-index cargo-local-registry
 
 # Build once to generate a Cargo.lock file.
+# sdl2-sys 0.38 requires this directory to copy bundled libraries.
+mkdir -p "${CARGO_TARGET_DIR:-target}/debug/deps"
 cargo build --all-features
 cargo clean
 
