@@ -3,8 +3,6 @@
 ![Test](https://github.com/endbasic/endbasic/actions/workflows/test.yml/badge.svg?branch=master)
 ![Build release](https://github.com/endbasic/endbasic/actions/workflows/build.yml/badge.svg?branch=master)
 ![Release checks](https://github.com/endbasic/endbasic/actions/workflows/release.yml/badge.svg?branch=master)
-![Deploy to staging](https://github.com/endbasic/endbasic/actions/workflows/deploy-staging.yml/badge.svg)
-![Deploy to release](https://github.com/endbasic/endbasic/actions/workflows/deploy-release.yml/badge.svg)
 
 EndBASIC is an interpreter for a BASIC-like language and is inspired by
 Amstrad's Locomotive BASIC 1.1 and Microsoft's QuickBASIC 4.5.  Like the former,

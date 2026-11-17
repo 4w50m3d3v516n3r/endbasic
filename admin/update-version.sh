@@ -106,9 +106,6 @@ main() {
 
         replace NEWS.md -E "/Changes in.*[0-9]+\\.[0-9]+\\.99/s/[0-9]+\\.[0-9]+\\.[0-9]+/${version}/g"
         replace NEWS.md -E "/STILL UNDER DEVELOPMENT/s/^.*$/**Released on ${date}.**/g"
-
-        replace .github/workflows/deploy-release.yml \
-            -E "s/endbasic-[0-9]+\\.[0-9]+\\.[0-9]+/endbasic-${version}/g"
     else
         add_devel_news_section NEWS.md "${version}"
     fi

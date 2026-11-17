@@ -25,7 +25,6 @@
     *   `Cargo.lock`: Reflects the new version number.
     *   `repl/src/welcome-banner-*`: Golden images need regeneration.
     *   `web/package*.json`: Update version number.
-    *   `.github/workflows/deploy-release.yml`: Update tag number.
 
 1.  Once all tests pass, merge the PR.
 
